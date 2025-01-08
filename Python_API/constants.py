@@ -1,6 +1,6 @@
 WORK_DIR_NAME = 'project'
 WORK_DIR = f"/home/{WORK_DIR_NAME}"
-MODIFICATIONS_TAG_NAME = 'bolt_file_modifications'
+MODIFICATIONS_TAG_NAME = 'buildwise_file_modifications'
 
 allowed_html_elements = [
     'a',
