@@ -30,7 +30,7 @@ def generate_content():
 
 
         # Return the generated content
-        print(response.text)
+        # print(response.text)
         return jsonify({"content": response.text}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
